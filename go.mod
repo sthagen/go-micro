@@ -5,14 +5,11 @@ go 1.13
 replace github.com/imdario/mergo => github.com/imdario/mergo v0.3.8
 
 require (
-	github.com/BurntSushi/toml v0.3.1
 	github.com/bitly/go-simplejson v0.5.0
-	github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869 // indirect
 	github.com/ef-ds/deque v1.0.4-0.20190904040645-54cb57c252a1
 	github.com/evanphx/json-patch/v5 v5.0.0
 	github.com/fsnotify/fsnotify v1.4.9
 	github.com/fsouza/go-dockerclient v1.6.0
-	github.com/ghodss/yaml v1.0.0
 	github.com/go-acme/lego/v3 v3.4.0
 	github.com/go-git/go-git/v5 v5.1.0
 	github.com/gobwas/httphead v0.0.0-20180130184737-2c6c146eadee
@@ -21,7 +18,6 @@ require (
 	github.com/golang/protobuf v1.4.2
 	github.com/google/uuid v1.1.1
 	github.com/gorilla/handlers v1.4.2
-	github.com/hashicorp/hcl v1.0.0
 	github.com/hpcloud/tail v1.0.0
 	github.com/imdario/mergo v0.3.9
 	github.com/lucas-clemente/quic-go v0.19.3
@@ -34,5 +30,4 @@ require (
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
 	golang.org/x/net v0.0.0-20200707034311-ab3426394381
 	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a
-	google.golang.org/grpc v1.26.0
 )
