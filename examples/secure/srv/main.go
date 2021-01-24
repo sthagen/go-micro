@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"context"
-	hello "github.com/micro/go-micro/examples/greeter/srv/proto/hello"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/transport"
+	hello "github.com/asim/go-micro/examples/v3/greeter/srv/proto/hello"
+	"github.com/asim/go-micro/v3"
+	"github.com/asim/go-micro/v3/transport"
 )
 
 type Say struct{}
@@ -25,7 +25,7 @@ func main() {
 		// setup a new transport with secure option
 		micro.Transport(
 			// create new transport
-			transport.NewTransport(
+			transport.NewHTTPTransport(
 				// set to automatically secure
 				transport.Secure(true),
 			),

@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/transport"
+	"github.com/asim/go-micro/v3/client"
+	"github.com/asim/go-micro/v3/transport"
 
-	hello "github.com/micro/go-micro/examples/greeter/srv/proto/hello"
+	hello "github.com/asim/go-micro/examples/v3/greeter/srv/proto/hello"
 
 	"context"
 )
@@ -14,7 +14,7 @@ import (
 func init() {
 	client.DefaultClient.Init(
 		client.Transport(
-			transport.NewTransport(transport.Secure(true)),
+			transport.NewHTTPTransport(transport.Secure(true)),
 		),
 	)
 }

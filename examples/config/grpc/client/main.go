@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/micro/go-micro/v2/config"
-	"github.com/micro/go-micro/v2/util/log"
-	grpcConfig "github.com/micro/go-plugins/config/source/grpc/v2"
+	"github.com/asim/go-micro/v3/config"
+	"github.com/asim/go-micro/v3/util/log"
+	grpcConfig "github.com/asim/go-micro/plugins/config/source/grpc/v3"
 )
 
 type Micro struct {
